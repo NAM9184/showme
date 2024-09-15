@@ -1,0 +1,26 @@
+.techStack {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.techStack h2 {
+  margin-bottom: 20px;
+}
+.techStack table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.techStack table th,
+.techStack table td {
+  padding: 10px;
+  text-align: left;
+}
+.techStack table th {
+}
+.techStack table td span {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 2px;
+  border-radius: 5px;
+}

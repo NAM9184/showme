@@ -1,0 +1,29 @@
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  opacity: 1;
+  transition: opacity 1s ease-out; /* 서서히 사라지게 하기 위한 트랜지션 */
+}
+
+.fadeOut {
+  opacity: 0; /* 로딩 페이지가 서서히 사라지도록 설정 */
+}
+
+.letter {
+  font-size: 4rem;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateX(20px);
+  animation: fadeInLeft 1s forwards;
+  margin: 0 5px;
+}
+
+@keyframes fadeInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
