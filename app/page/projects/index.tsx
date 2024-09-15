@@ -1,6 +1,7 @@
-// ProjectList.tsx
+"use client";
+
 import { useState } from "react";
-import ProjectItem from "../ProjectItem/ProjectItem";
+import ProjectItem from "../../components/ProjectItem/ProjectItem";
 import styles from "./ProjectList.module.css";
 
 const projects = [
@@ -8,18 +9,6 @@ const projects = [
   { id: 2, title: "Project B", isResponsive: false, src: "123" },
   { id: 3, title: "Project B", isResponsive: false, src: "123" },
   { id: 4, title: "Project B", isResponsive: false, src: "123" },
-  { id: 5, title: "Project B", isResponsive: false, src: "123" },
-  { id: 6, title: "Project B", isResponsive: false, src: "123" },
-  { id: 8, title: "Project B", isResponsive: false, src: "123" },
-  { id: 9, title: "Project B", isResponsive: false, src: "123" },
-  { id: 10, title: "Project B", isResponsive: false, src: "123" },
-  { id: 11, title: "Project B", isResponsive: false, src: "123" },
-  { id: 12, title: "Project B", isResponsive: false, src: "123" },
-  { id: 13, title: "Project B", isResponsive: false, src: "123" },
-  { id: 14, title: "Project B", isResponsive: false, src: "123" },
-  { id: 15, title: "Project B", isResponsive: false, src: "123" },
-  { id: 16, title: "Project B", isResponsive: false, src: "123" },
-  { id: 17, title: "Project B", isResponsive: false, src: "123" },
 
   // 더 많은 프로젝트
 ];

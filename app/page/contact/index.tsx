@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { sendContactEmail } from "../api/contact";
+import { sendContactEmail } from "../../api/contact";
 import styles from "./EmailForm.module.css"; // CSS Modules 파일 가져오기
 
 const initialContact = {

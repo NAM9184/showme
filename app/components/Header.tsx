@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import styles from "./Header.module.css";
 
 const Header = () => {
@@ -7,16 +7,13 @@ const Header = () => {
       <nav className={styles.nav}>
         <ul className={styles.navList}>
           <li>
-            <Link to="/about">MyInfo</Link>
+            <Link href="/">MyInfo</Link>
           </li>
           <li>
-            <Link to="/projects">Things</Link>
+            <Link href="/projects">Things</Link>
           </li>
           <li>
-            <Link to="/skills">Vision</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
