@@ -7,10 +7,13 @@ const Header = () => {
       <nav className={styles.nav}>
         <ul className={styles.navList}>
           <li>
-            <Link href="/">MyInfo</Link>
+            <Link href="/">home</Link>
           </li>
           <li>
-            <Link href="/projects">Things</Link>
+            <Link href="/about">about</Link>
+          </li>
+          <li>
+            <Link href="/projects">Portfolio</Link>
           </li>
           <li>
             <Link href="/contact">Contact</Link>

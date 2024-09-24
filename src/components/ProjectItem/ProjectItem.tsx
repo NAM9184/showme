@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import styles from "./ProjectItem.module.css";
 
 interface ProjectItemProps {
@@ -14,7 +14,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
 }) => {
   return (
     <div className={styles.projectItem}>
-      <Link to={src || "/"}>
+      <Link href={src || "/"}>
         <h3>{title}</h3>
         {isResponsive && (
           <span className={styles.responsiveBadge}>Responsive</span>

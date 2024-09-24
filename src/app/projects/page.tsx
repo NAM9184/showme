@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import ProjectItem from "../../components/ProjectItem/ProjectItem";
+import ProjectItem from "@/components/ProjectItem/ProjectItem";
 import styles from "./ProjectList.module.css";
 
 const projects = [

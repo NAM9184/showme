@@ -27,18 +27,11 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-export function sendEmail({ from, title, content, file }: ContactType) {
+export function sendEmail({ from, title, content }: ContactType) {
   const mailOptions: MailOptionType = {
     to: process.env.NEXT_APP_EMAIL || "",
     from,
     subject: `[1:1 문의] ${title}`,
-    attachments: [
-      {
-        // filename: file?.name,
-        path: file,
-        // cid: from + title,
-      },
-    ],
     html: `
     <h1>${title}</h1>
     <div>${content}</div>
