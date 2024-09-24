@@ -3,7 +3,6 @@
 .formContainer {
   display: flex;
   flex-direction: column;
-  border-radius: 1rem;
 }
 
 .formGroup {
@@ -16,6 +15,7 @@
 }
 .labelTitle {
   display: inline-block;
+  font-weight: 100;
   margin-bottom: 10px;
 }
 
@@ -23,15 +23,16 @@
 .textarea {
   width: 100%;
   padding: 10px;
-  border-radius: 4px;
-  box-sizing: border-box;
   border: 1px solid transparent;
-  background: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   outline: none;
   color: #fff;
 
   &:focus {
     border: 1px solid rgba(0, 123, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #141414;
+    transition: all 0.3s ease;
   }
 }
 
@@ -44,19 +45,19 @@
 /* 웹킷 기반 브라우저용 스크롤바 커스텀 */
 .textarea::-webkit-scrollbar {
   width: 12px;
+  cursor: grap;
 }
 
 .textarea::-webkit-scrollbar-thumb {
-  background-color: #888;
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 6px;
 }
 
 .textarea::-webkit-scrollbar-thumb:hover {
-  background-color: #555;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .textarea::-webkit-scrollbar-track {
-  background-color: #f1f1f1;
 }
 
 .button {

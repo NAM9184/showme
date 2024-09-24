@@ -14,6 +14,10 @@
   --pad: max(20px, 4vmin);
 }
 
+::-webkit-scrollbar {
+  cursor: pointer !important;
+}
+
 /* reset */
 * {
   margin: 0;

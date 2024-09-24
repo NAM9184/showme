@@ -26,7 +26,7 @@ const WaveBackground: React.FC = () => {
       const waveLength = 200;
       const amplitude = 20;
 
-      for (let i = 0; i < 5; i++) {
+      for (let i = 0; i < 10; i++) {
         ctx.beginPath();
         const offset = i * waveHeight;
         for (let x = 0; x < width; x++) {
