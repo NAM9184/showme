@@ -1,5 +1,9 @@
 /* ProjectList.module.css */
-
+.projectList {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 .modal {
   display: flex;
   justify-content: center;

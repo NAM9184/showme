@@ -89,7 +89,7 @@ export default function EmailForm() {
       {/* 문의 내용 입력 및 글자 수 제한 */}
       <div className={styles.formGroup}>
         <label className={styles.label}>
-          <span className={styles.labelTitle}>문의 내용</span>
+          <span className={styles.labelTitle}>내용</span>
           <textarea
             required
             name="content"
@@ -111,7 +111,7 @@ export default function EmailForm() {
 
       {/* 제출 버튼 */}
       <button type="submit" className={styles.button}>
-        작성 완료
+        전송
       </button>
     </form>
   );

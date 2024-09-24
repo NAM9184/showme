@@ -6,9 +6,9 @@ const Header = () => {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <ul className={styles.navList}>
-          <li>
+          {/* <li>
             <Link href="/">home</Link>
-          </li>
+          </li> */}
           <li>
             <Link href="/about">about</Link>
           </li>
