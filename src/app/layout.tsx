@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
+      <WaveBackground />
       <body>
         <WaveBackground />
         <main className={styles.main}>
