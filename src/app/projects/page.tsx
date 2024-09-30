@@ -5,10 +5,36 @@ import ProjectItem from "@/components/ProjectItem/ProjectItem";
 import styles from "./ProjectList.module.css";
 
 const projects = [
-  { id: 1, title: "Project A", isResponsive: true, src: "123" },
-  { id: 2, title: "Project B", isResponsive: false, src: "123" },
-  { id: 3, title: "Project B", isResponsive: false, src: "123" },
-  { id: 4, title: "Project B", isResponsive: false, src: "123" },
+  {
+    id: 1,
+    title: "Chuno",
+    isResponsive: true,
+    src: "https://chuno9.netlify.app",
+  },
+  {
+    id: 2,
+    title: "Lightyoung",
+    isResponsive: true,
+    src: "http://http://lightyoung.co.kr/",
+  },
+  {
+    id: 3,
+    title: "Alps",
+    isResponsive: true,
+    src: "http://ruelline.co.kr/alps",
+  },
+  {
+    id: 4,
+    title: "diff",
+    isResponsive: false,
+    src: "http://ruelline.co.kr/diff",
+  },
+  {
+    id: 5,
+    title: "tour",
+    isResponsive: false,
+    src: "http://ruelline.co.kr/tour",
+  },
 
   // 더 많은 프로젝트
 ];

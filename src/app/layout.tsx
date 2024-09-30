@@ -13,8 +13,8 @@ export const metadata: Metadata = {
 function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
-      <WaveBackground />
       <body>
+        <WaveBackground />
         <main className={styles.main}>
           <section className={styles.sectionLeft}>
             <h1 className={styles.nameFirst}>Nam DongHyeon</h1>

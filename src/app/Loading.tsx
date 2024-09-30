@@ -5,10 +5,9 @@ const LoadingPage = () => {
   const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
-    // Simulate loading time
     const timer = setTimeout(() => {
-      setFadeOut(true); // 로딩이 끝나면 fadeOut 상태를 true로 설정
-    }, 2000); // 로딩 시간 3초
+      setFadeOut(true);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);

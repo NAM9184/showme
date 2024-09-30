@@ -14,7 +14,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
 }) => {
   return (
     <div className={styles.projectItem}>
-      <Link href={src || "/"}>
+      <Link href={src || "/"} target="_blank">
         <h3>{title}</h3>
         {isResponsive && (
           <span className={styles.responsiveBadge}>Responsive</span>
