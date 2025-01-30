@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
+import dynamic from "next/dynamic";
 import "./globals.css";
 import styles from "./page.module.css";
-import WaveBackground from "@/components/Background/Background";
 import Header from "@/components/Header";
 import ClientLayout from "./ClientLayout";
+
+const WaveBackground = dynamic(
+  () => import("@/components/Background/Background"),
+  { ssr: false }
+);
 
 export const metadata: Metadata = {
   title: "NDH",
@@ -13,7 +18,6 @@ export const metadata: Metadata = {
 function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
-      <WaveBackground />
       <body>
         <WaveBackground />
         <main className={styles.main}>
