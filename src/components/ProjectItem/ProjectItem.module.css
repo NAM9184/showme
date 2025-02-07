@@ -1,14 +1,64 @@
-/* ProjectItem.module.css */
 .projectItem {
-  border: 1px solid #cff;
-  aspect-ratio: 1/1;
-  min-width: 30%;
-  padding: 16px;
-  align-items: flex-start;
-  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* 위아래 간격 유지 */
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  color: white; /* 텍스트 색상 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 250px; /* 일정한 높이 */
+  width: 100%;
 }
 
-.projectItem:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-  transition: 0.25s linear;
+.thumbnail {
+  border-radius: 8px;
+}
+
+.contentWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skills li {
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.link {
+  background: #cdcdcd;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.link:hover {
+  background: #0056b3;
 }

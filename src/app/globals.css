@@ -9,7 +9,26 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  --linear-gradient-light-dark: linear-gradient(
+    0deg,
+    #7151a9 0%,
+    #7151a9 6.25%,
+    #7353aa 12.5%,
+    #7555ac 18.75%,
+    #7758ae 25%,
+    #7b5cb1 31.25%,
+    #7f61b4 37.5%,
+    #8467b8 43.75%,
+    #8a6ebd 50%,
+    #9175c2 56.25%,
+    #987ec8 62.5%,
+    #a087ce 68.75%,
+    #a992d5 75%,
+    #b39ddd 81.25%,
+    #bea9e5 87.5%,
+    #c9b6ee 93.75%,
+    #d5c4f8 100%
+  );
   --color-text: white;
   --pad: max(20px, 4vmin);
 }
@@ -28,7 +47,7 @@
 html,
 body {
   box-sizing: border-box;
-  background-color: #111;
+  background-color: var(--linear-gradient-light-dark);
   color: var(--color-text);
 }
 

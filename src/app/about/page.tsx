@@ -32,6 +32,7 @@ function AboutPage() {
             <h3>Framework / Library</h3>
             <div className={styles.skillList}>
               <span>React</span>
+              <span>NEXTJS</span>
             </div>
           </div>
 
