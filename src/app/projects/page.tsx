@@ -23,7 +23,7 @@ const projects: Project[] = [
   {
     id: 1,
     title: "Toucheese",
-    description: "촬영 스튜디오 매칭 플랫폼",
+    description: "촬영 스튜디오 매칭 플랫폼 멋쟁이사자 인턴십",
     type: "웹 앱",
     isResponsive: true,
     level: "MVP",
@@ -33,6 +33,7 @@ const projects: Project[] = [
     year: 2024,
     thumbnail: "",
     src: "https://toucheese-macwin.store",
+    github: "https://github.com/NAM9184/chuno-new",
   },
   {
     id: 2,
@@ -50,11 +51,11 @@ const projects: Project[] = [
   {
     id: 3,
     title: "Lightyoung",
-    description: "힙합크루 랩가수 홍보용 랜딩페이지",
+    description: "개인 홍보용 랜딩페이지",
     type: "랜딩페이지",
     isResponsive: true,
     // status: "운영 중",
-    year: 2023,
+    // year: 2023,
     src: "http://lightyoung.co.kr/",
   },
   {
@@ -65,7 +66,7 @@ const projects: Project[] = [
     isResponsive: true,
     features: ["페이지 디자인, 마크업"],
     status: "",
-    year: 2022,
+    // year: 2022,
     src: "http://ruelline.co.kr/alps",
   },
   {
@@ -76,7 +77,7 @@ const projects: Project[] = [
     isResponsive: false,
     skills: ["Figma", "html", "scss"],
     status: "",
-    year: 2022,
+    // year: 2022,
     src: "http://ruelline.co.kr/diff",
   },
   {

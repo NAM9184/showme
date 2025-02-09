@@ -32,33 +32,27 @@
 }
 
 .skills ul {
-  list-style: none;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
 }
 
 .skills li {
-  padding: 0.3rem 0.7rem;
-  border-radius: 5px;
+  padding: 0.3rem 0.3rem;
   font-size: 0.9rem;
 }
 
 .links {
   display: flex;
-  gap: 1rem;
+
+  gap: 10px;
   margin-top: auto;
 }
-
 .link {
-  background: #cdcdcd;
+  background: gray;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   text-align: center;
-}
-
-.link:hover {
-  background: #0056b3;
+  width: 120px; /* 버튼 크기 일정하게 */
 }
